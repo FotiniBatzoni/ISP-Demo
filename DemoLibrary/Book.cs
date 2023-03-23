@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    internal class Book : ILibraryItem
+    public class Book : ILibraryItem
     {
         public string Author { get; set; }
         public DateTime BorrowDate { get; set; }
@@ -25,6 +25,11 @@ namespace DemoLibrary
         {
             Borrower = borrower;
             BorrowDate = DateTime.Now;
+        }
+
+        public void CheckOut()
+        {
+            throw new NotImplementedException();
         }
 
         public DateTime GetDueDate()
