@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="AudioBook.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="DVD.cs" />
     <Compile Include="ILibraryItem.cs" />
     <Compile Include="ReferenceBook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
