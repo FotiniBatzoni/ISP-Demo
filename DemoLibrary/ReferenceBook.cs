@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class ReferenceBook : ILibraryItem
+    public class ReferenceBook : IBook
     {
         public string LibraryId { get; set; }
 
@@ -16,25 +16,6 @@ namespace DemoLibrary
 
         public int Pages { get; set; }
 
-        public int CheckOutDurationInDays { get; set; } = 0;
-
-        public string Borrower { get; set; }
-
-        public DateTime BorrowDate { get; set; }
-
-        public void CheckOut (string borrower)
-        {
-            throw new NotImplementedException ();
-        }
-
-        public void CheckIn()
-        {
-            throw new NotImplementedException();
-        }
-
-        public DateTime GetDueDate()
-        {
-            throw new NotImplementedException();
         }
     }
 }
