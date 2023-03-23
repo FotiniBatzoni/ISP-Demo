@@ -16,7 +16,7 @@ namespace DemoLibrary
 
         public int Pages { get; set; }
 
-        public int CheckOutDurationInDays { get; set; }
+        public int CheckOutDurationInDays { get; set; } = 0;
 
         public string Borrower { get; set; }
 
@@ -29,7 +29,7 @@ namespace DemoLibrary
 
         public void CheckIn()
         {
-
+            throw new NotImplementedException();
         }
 
         public DateTime GetDueDate()
