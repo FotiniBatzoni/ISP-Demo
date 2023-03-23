@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public interface IBorrowableAudioBook : IAudioBook, IBorrowable
+    internal interface IBorrowableDVD
     {
     }
 }

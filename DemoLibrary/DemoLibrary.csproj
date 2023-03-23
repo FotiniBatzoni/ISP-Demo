@@ -50,6 +50,7 @@
     <Compile Include="IBorrowableAudioBook.cs" />
     <Compile Include="IBorrowableBook.cs" />
     <Compile Include="ILibraryItem.cs" />
+    <Compile Include="IDVD.cs" />
     <Compile Include="ReferenceBook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
