@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public interface ILibraryItem
+    public interface IBook : ILibraryItem
     {
-        string LibraryId { get; set; }
+        string Author { get; set; }
 
-        string Title { get; set; }
+        int Pages { get; set; }
     }
 }
