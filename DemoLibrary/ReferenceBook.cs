@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class ReferenceBook
+    public class ReferenceBook : ILibraryItem
     {
         public string LibraryId { get; set; }
 
@@ -30,6 +30,16 @@ namespace DemoLibrary
         public void CheckIn()
         {
 
+        }
+
+        public void CheckOut()
+        {
+            throw new NotImplementedException();
+        }
+
+        public DateTime GetDueDate()
+        {
+            throw new NotImplementedException();
         }
     }
 }
