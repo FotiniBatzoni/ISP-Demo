@@ -27,10 +27,6 @@ namespace DemoLibrary
             BorrowDate = DateTime.Now;
         }
 
-        public void CheckOut()
-        {
-            throw new NotImplementedException();
-        }
 
         public DateTime GetDueDate()
         {

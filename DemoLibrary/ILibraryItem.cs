@@ -24,7 +24,7 @@ namespace DemoLibrary
 
         void CheckIn();
 
-        void CheckOut();
+        void CheckOut(string borrower);
 
         DateTime GetDueDate();
     }

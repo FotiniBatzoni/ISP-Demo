@@ -32,11 +32,6 @@ namespace DemoLibrary
 
         }
 
-        public void CheckOut()
-        {
-            throw new NotImplementedException();
-        }
-
         public DateTime GetDueDate()
         {
             throw new NotImplementedException();
